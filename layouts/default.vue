@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900">
+  <div class="bg-iHost">
     <Nuxt />
   </div>
 </template>
@@ -21,6 +21,9 @@ export default {
   src: url('~static/nunito-extrabold.woff2') format('woff2');
   font-display: swap;
   font-weight: 800;
+}
+.bg-iHost{
+  background-color: #0C0C0E;
 }
 html {
   font-family: 'Nunito', sans-serif;

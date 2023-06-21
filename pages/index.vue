@@ -1,7 +1,7 @@
 <template>
   <div
     ref="container"
-    class="container relative bg-gray-900 mx-auto text-gray-100"
+    class="container relative bg-iHost mx-auto text-gray-100"
     style="max-width: 960px"
   >
     <Modal
@@ -75,27 +75,6 @@
           v-html="require(`~/assets/icons/logo.svg?include`)"
           title="EnBizCard - An Open-Source Digital Business Card Generator"
         ></div>
-        <a
-          class="
-            font-extrabold
-            tracking-wide
-            leading-none
-            shrink-0
-            p-3
-            border-2
-            text-white
-            border-gray-700
-            rounded
-            hover:bg-gray-700
-            focus:bg-gray-700
-            transition-colors
-            duration-200
-          "
-          href="https://www.vishnuraghav.com/donate"
-          target="_blank"
-          rel="noreferrer"
-          >Donate</a
-        >
       </div>
       <h1
         class="
@@ -971,7 +950,6 @@
           :downloadChecked="downloadChecked"
           :downloadPackage="downloadPackage"
         />
-        <Help />
       </div>
       <div
         id="preview-container"

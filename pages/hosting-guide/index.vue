@@ -1,20 +1,14 @@
 <template>
-  <div class="bg-gray-900 mx-auto text-gray-100" style="max-width: 960px">
+  <div class="bg-iHost mx-auto text-gray-100" style="max-width: 960px">
     <div class="px-4">
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
           <div
             class="logo w-24"
             v-html="require(`~/assets/icons/logo.svg?include`)"
-            title="EnBizCard - An Open-Source Digital Business Card Generator"
+            title="An Open-Source Digital Business Card Generator"
           ></div
         ></NuxtLink>
-        <a
-          class="font-extrabold tracking-wide leading-none shrink-0 p-3 border-2 text-white border-gray-700 rounded hover:bg-gray-700 focus:bg-gray-700 transition-colors duration-200"
-          href="https://www.vishnuraghav.com/donate"
-          target="_blank"
-          >Donate</a
-        >
       </div>
       <div id="guide" class="max-w-screen-sm">
         <h1
@@ -80,7 +74,7 @@
               <NuxtLink
                 to="/"
                 class="underline font-extrabold text-emerald-600 hover:text-emerald-500 focus:text-emerald-500 transition-colors duration-200"
-                >EnBizCard</NuxtLink
+                >Business Card Generator</NuxtLink
               >.
             </li>
             <li>
@@ -152,25 +146,13 @@
               procedure might vary with platform.
             </li>
           </ul>
-          <p class="mt-4">
-            If you got any doubt setting up your digital business card on any of
-            these platforms, You can always
-            <a
-              class="underline text-emerald-600 font-extrabold hover:text-emerald-500 focus:text-emerald-500 transition-colors duration-200"
-              href="https://t.me/enbizcard"
-              target="_blank"
-              rel="noopener noreferrer"
-              >join the telegram group</a
-            >
-            and ask it.
-          </p>
         </div>
         <div class="mt-16">
           <h3 class="font-extrabold text-2xl">
             How do I update my business card details?
           </h3>
           <p class="mt-6">
-            EnBizCard does not store any data online for you to retrieve it for
+            Business Card Generator does not store any data online for you to retrieve it for
             editing. So, every card has to be manually created from scratch.
           </p>
           <ul class="px-6 mt-6 list-outside list-disc">
@@ -179,7 +161,7 @@
               <NuxtLink
                 to="/"
                 class="underline font-extrabold text-emerald-600 hover:text-emerald-500 focus:text-emerald-500 transition-colors duration-200"
-                >EnBizCard</NuxtLink
+                >Business Card Generator</NuxtLink
               >
               and generate a new digital business card.
             </li>
@@ -203,7 +185,7 @@
               <NuxtLink
                 to="/"
                 class="underline font-extrabold text-emerald-600 hover:text-emerald-500 focus:text-emerald-500 transition-colors duration-200"
-                >EnBizCard</NuxtLink
+                >Business Card Generator</NuxtLink
               >
               and generate a digital business card.
             </li>
@@ -221,17 +203,7 @@
           </ul>
         </div>
       </div>
-      <Help />
-      <div class="mt-24">
-        Help me improve this guide on
-        <a
-          class="underline text-emerald-600 font-extrabold hover:text-emerald-500 focus:text-emerald-500 transition-colors duration-200"
-          href="https://github.com/vishnuraghavb/EnBizCard"
-          target="_blank"
-          rel="noopener noreferrer"
-          >GitHub</a
-        >
-      </div>
+      
     </div>
     <Footer />
   </div>

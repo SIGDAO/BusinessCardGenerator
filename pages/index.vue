@@ -88,7 +88,7 @@
         Why Pay When Your Website Can Host Your Digital Business Cards for Free!
       </h1>
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-        EnBizCard helps you create beautiful, responsive HTML&#8209;based
+        Business Card Generator helps you create beautiful, responsive HTML&#8209;based
         digital business cards that can be hosted on your website.
       </p>
       <ul class="mt-4 text-gray-400">

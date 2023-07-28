@@ -346,14 +346,7 @@
             :style="{ backgroundColor: `${colors.mainBg.color}` }"
             class="textColor"
           >
-            Created with
-            <a
-              class="textColor"
-              href="https://enbizcard.vishnuraghav.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >EnBizCard</a
-            >
+            Created with Business Card Generator
           </footer>
         </body>
       </html>
